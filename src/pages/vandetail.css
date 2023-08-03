@@ -1,0 +1,58 @@
+.vanDetailContainer {
+    padding: 10px 30px;
+}
+
+.linkVanDetail {
+    text-decoration: none;
+    color: #201F1D;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 0.7em;
+    transition: transform .1s ease-in-out;
+}
+
+.linkText {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    display: inline-block;
+}
+
+.linkText:hover {
+    text-decoration: underline;
+}
+
+.iconGoBack {
+    width: 25px;
+    height: 25px;
+}
+
+.iconGoBack:hover {
+    transform: translate(1px, 1px);
+}
+
+.vanDetailImage {
+    width: 497px;
+    height: 490px;
+    border-radius: 5px;
+}
+
+.vandetailDescription {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-top: 0;
+}
+
+.vandetailImageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.noneFloat {
+    float: none;
+}

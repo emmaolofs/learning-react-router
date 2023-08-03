@@ -1,0 +1,74 @@
+.aboutHeader {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.aboutDescription {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.abouth2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+  padding: 20px 20px 40px 20px;
+  margin-bottom: 0;
+}
+
+.aboutButton {
+  padding: 12px 22px 13px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  background: #161616;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 10px 20px 20px 20px;
+  cursor: pointer;
+  transition: transform .1s ease-in-out;
+}
+
+.aboutButton:hover {
+  transform: translate(1px, 1px);
+}
+
+.aboutSection2Container {
+  background: #ffcc8d;
+  height: 198px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.aboutContainer {
+  margin-bottom: 50px;
+}
+
+.aboutTextContainer {
+  padding: 0 30px;
+}
+
+.aboutImage {
+  height: 217px;
+  width: 510px;
+}
+
+.aboutImageContainer {
+  display: flex;
+  justify-content: center;
+}

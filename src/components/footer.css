@@ -1,0 +1,17 @@
+.footerText {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.footerContainer {
+    background: #252525;
+    width: 548px;
+    height: 74.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

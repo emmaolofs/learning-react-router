@@ -1,0 +1,48 @@
+.homeHeader {
+    color: white;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 42px;
+}
+
+.homeDescription {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.homeButton {
+    background: #FF8C38;
+    color: white;
+    width: 494px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: .75rem 1.375rem;
+    cursor: pointer;
+    transition: transform .1s ease-in-out;
+    font-weight: 700;
+    display: inline-grid
+}
+
+.buttonContainer {
+    padding-top: 15px;
+}
+
+.homeButton:hover {
+    transform: translate(1px, 1px);
+}
+
+.homeContainer {
+    background-image: url('../assets/images/backgroundHome.png');
+    width: 548px;
+    height: 386px;
+    background-repeat: no-repeat;
+}
+
+.homeTextContainer {
+    padding: 20px;
+}

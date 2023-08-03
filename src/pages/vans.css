@@ -1,0 +1,151 @@
+.vansHeader {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+}
+
+.buttonContainer {
+    margin-bottom: 45px;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border: none;
+    cursor: pointer;
+    padding: 6px 22px 7px 23px;
+}
+
+.btnClearFilters {
+    background-color: transparent;   
+    padding-right: 0; 
+}
+
+.btnClearFilters:hover {
+    text-decoration: underline;
+}
+
+.btnFilter {
+    width: 104px;
+    height: 37px;
+    border-radius: 5px;
+    background: #FFEAD0;
+    transition: transform .1s ease-in-out;
+}
+
+.btnFilter:hover {
+    transform: translate(1px, 1px);
+}
+
+.filterContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+}
+
+.vanImage {
+    width: 229px;
+    height: 229px;
+    border-radius: 5px;
+}
+
+.vansName {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline;
+    margin-bottom: 0;
+}
+
+.vansPrice {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: right;
+    display: inline;
+    margin-bottom: 0;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vanObject {
+    width: 229px;
+    display: inline-block;
+}
+
+.vanObjectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 1.8em;
+}
+
+.vansSiteContainer {
+    padding: 10px 30px;
+}
+
+.dayParagraph {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    float: right;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.van-type {
+    height: 34px;
+    width: 86px;
+    padding: 6px;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFEAD0;
+    color: #4D4D4D;
+    transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link {
+    text-decoration: none;
+    color: #161616;
+}
+
+.van-type:hover {
+    color: #FFEAD0;
+  }
+  
+  .van-type:focus {
+    outline: none;
+  }
+  
+  .van-type.selected {
+    color: #FFEAD0;
+  }
+  
+  .van-type.simple:hover, .van-type.simple.selected {
+    background-color: #E17654;
+  }
+  
+  .van-type.rugged:hover, .van-type.rugged.selected {
+    background-color: #115E59;
+  }
+  
+  .van-type.luxury:hover, .van-type.luxury.selected {
+    background-color: #161616;
+  }
+
